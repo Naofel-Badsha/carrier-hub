@@ -1,0 +1,118 @@
+[
+    {
+      "id": 1,
+      "job_title": "Software Engineer",
+      "img": "https://i.ibb.co/hFcMPHV/jb-1.jpg",
+      "job_name": "Remote Software Engineer",
+      "apply_pepole" : 13
+
+    },
+    {
+      "id": 2,
+      "job_title": "Data Analyst",
+      "img": "https://i.ibb.co/9GPSDht/jb-2.jpg",
+      "job_name": "Onsite Data Analyst",
+      "apply_pepole" : 15
+    },
+    {
+      "id": 3,
+      "job_title": "Product Manager",
+      "img": "https://i.ibb.co/6ymqJTd/jb-3.png",
+      "job_name": "Remote Product Manager",
+      "apply_pepole" : 20
+
+    },
+    {
+      "id": 4,
+      "job_titl0.e": "UX Designer",
+      "img": "https://i.ibb.co/mH2jBkQ/jb-4.jpg",
+      "job_name": "Onsite UX Designer",
+      "apply_pepole" : 35
+    },
+    {
+      "id": 5,
+      "job_title": "Marketing Specialist",
+      "img": "https://i.ibb.co/THkr68c/jb-5.jpg",
+      "job_name": "Onsite Marketing Specialist",
+      "apply_pepole" : 40
+    },
+    {
+      "id": 6,
+      "job_title": "Sales Manager",
+      "img": "https://i.ibb.co/4jg8x6R/jb-6.jpg",
+      "job_name": "Remote Sales Manager",
+      "apply_pepole" : 10
+    },
+    {
+      "id": 7,
+      "job_title": "Customer Support",
+      "img": "https://i.ibb.co/NSQkNT2/jb-7.jpg",
+      "job_name": "Onsite Customer Support",
+      "apply_pepole" : 18
+    },
+    {
+      "id": 8,
+      "job_title": "HR Specialist",
+      "img": "https://i.ibb.co/KLPxGMJ/bj-8.jpg",
+      "job_name": "Remote HR Specialist",
+      "apply_pepole" : 45
+
+    },
+    {
+      "id": 9,
+      "job_title": "Business Analyst",
+      "img": "https://i.ibb.co/C1nSbbD/jb-9.jpg",
+      "job_name": "Onsite Business Analyst",
+      "apply_pepole" : 15
+    },
+    {
+      "id": 10,
+      "job_title": "Operations Manager",
+      "img": "https://i.ibb.co/ZSMzKvh/jb-10.jpg",
+      "job_name": "Remote Operations Manager",
+      "apply_pepole" : 27
+    },
+    {
+      "id": 11,
+      "job_title": "Content Writer",
+      "img": "https://i.ibb.co/cxWrBJz/jb-11.jpg",
+      "job_name": "Onsite Content Writer",
+      "apply_pepole" : 30
+    },
+    {
+      "id": 12,
+      "job_title": "Graphic Designer",
+      "img": "https://i.ibb.co/yVDC297/jb-12.jpg",
+      "job_name": "Remote Graphic Designer",
+      "apply_pepole" : 22
+    },
+    {
+      "id": 13,
+      "job_title": "IT Support",
+      "img": "https://i.ibb.co/JQ5WPvP/jb-13.jpg",
+      "job_name": "Onsite IT Support",
+      "apply_pepole" : 33
+    },
+    {
+      "id": 14,
+      "job_title": "Financial Analyst",
+      "img": "https://i.ibb.co/qMmtJzF/jb-14.jpg",
+      "job_name": "Remote Financial Analyst",
+      "apply_pepole" : 36
+    },
+    {
+      "id": 15,
+      "job_title": "DevOps Engineer",
+      "img": "https://i.ibb.co/9n1dC53/jb-15.jpg",
+      "job_name": "Onsite DevOps Engineer",
+      "apply_pepole" : 38
+    },
+    {
+      "id": 16,
+      "job_title": "Project Coordinator",
+      "img": "https://i.ibb.co/bFhTp2R/jb-16.jpg",
+      "job_name": "Remote Project Coordinator",
+      "apply_pepole" : 25
+    }
+  ]
+  

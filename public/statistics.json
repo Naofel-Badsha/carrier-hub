@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/YcCZrDG/c-1.jpg",
+      "job_conferences_name": "Tech Innovations 2024",
+      "jobs_conferences_title": "Keynote Speaker"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/bRx0N8r/c-2.jpg",
+      "job_conferences_name": "AI & Machine Learning Summit",
+      "jobs_conferences_title": "Panelist"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/8PqmCw3/c-3.webp",
+      "job_conferences_name": "Healthcare Technology Conference",
+      "jobs_conferences_title": "Workshop Leader"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/Yps9Dhx/c-4.png",
+      "job_conferences_name": "Cybersecurity Forum",
+      "jobs_conferences_title": "Security Expert"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/bFHCBs6/c-5.jpg",
+      "job_conferences_name": "Sustainable Energy Expo",
+      "jobs_conferences_title": "Green Technology Specialist"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/f0HjVN1/c-6.jpg",
+      "job_conferences_name": "Education Technology Conference",
+      "jobs_conferences_title": "EdTech Innovator"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/7VY8ZjT/c-7.webp",
+      "job_conferences_name": "Financial Technology Summit",
+      "jobs_conferences_title": "FinTech Leader"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/jhGKRbC/c-8.jpg",
+      "job_conferences_name": "Digital Marketing Conference",
+      "jobs_conferences_title": "Marketing Strategist"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/GdnWLZy/c-10.jpg",
+      "job_conferences_name": "Smart Cities Symposium",
+      "jobs_conferences_title": "Urban Planner"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/WDd9qHY/c-11.jpg",
+      "job_conferences_name": "E-commerce Conference",
+      "jobs_conferences_title": "E-commerce Specialist"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/Z2hyqD1/c-12.jpg",
+      "job_conferences_name": "Robotics Conference",
+      "jobs_conferences_title": "Robotics Engineer"
+    },
+    {
+      "id": 13,
+      "image": "https://i.ibb.co/qg4NyPr/c-13.webp",
+      "job_conferences_name": "Cloud Computing Conference",
+      "jobs_conferences_title": "Cloud Architect"
+    },
+    {
+      "id": 15,
+      "image": "https://i.ibb.co/y0XqTyZ/c-15.jpg",
+      "job_conferences_name": "Mobile Technology Conference",
+      "jobs_conferences_title": "Mobile App Developer"
+    },
+    {
+      "id": 16,
+      "image": "https://i.ibb.co/9VQp9YZ/c-16.jpg",
+      "job_conferences_name": "Virtual Reality Expo",
+      "jobs_conferences_title": "VR Developer"
+    },
+    {
+      "id": 17,
+      "image": "https://i.ibb.co/9wBxVzq/c-17.webp",
+      "job_conferences_name": "Gaming Conference",
+      "jobs_conferences_title": "Game Developer"
+    },
+    {
+      "id": 18,
+      "image": "https://i.ibb.co/jWxCwpV/c-18.jpg",
+      "job_conferences_name": "Digital Transformation Conference",
+      "jobs_conferences_title": "Digital Transformation Leader"
+    },
+    {
+      "id": 19,
+      "image": "https://i.ibb.co/j6rL4km/c-19.jpg",
+      "job_conferences_name": "IoT Conference",
+      "jobs_conferences_title": "IoT Specialist"
+    },
+    {
+      "id": 20,
+      "image": "https://i.ibb.co/R9twSDd/c-20.png",
+      "job_conferences_name": "Artificial Intelligence Expo",
+      "jobs_conferences_title": "AI Researcher"
+    },
+    {
+      "id": 21,
+      "image": "https://i.ibb.co/nb3XVZC/c-21.jpg",
+      "job_conferences_name": "Biotechnology Conference",
+      "jobs_conferences_title": "Biotech Scientist"
+    },
+    {
+      "id": 22,
+      "image": "https://i.ibb.co/mJ2X9kw/c-22.jpg",
+      "job_conferences_name": "Autonomous Vehicles Symposium",
+      "jobs_conferences_title": "Autonomous Vehicle Engineer"
+    },
+    {
+      "id": 23,
+      "image": "https://i.ibb.co/jDCWH21/c-23.jpg",
+      "job_conferences_name": "Renewable Energy Conference",
+      "jobs_conferences_title": "Renewable Energy Engineer"
+    },
+    {
+      "id": 24,
+      "image": "https://i.ibb.co/y6H1BvM/c-24.jpg",
+      "job_conferences_name": "Smart Home Conference",
+      "jobs_conferences_title": "Smart Home Designer"
+    }
+  ]
+  
