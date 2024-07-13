@@ -1,21 +1,29 @@
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Login = () => {
   const { singInUser, singInWidthGoogle } = useContext(AuthContext);
   const navigate = useNavigate();
-  
+  //----------------------
+  // const [singInError, setSingInError] = useState("")
+  const [success, setSuccess] = useState("");
+
   const handelLogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
     console.log(email, password);
 
+    // setSingInError("")
+    setSuccess("");
+
     //-------singIn----User------
     singInUser(email, password)
       .then((result) => {
         console.log(result.user);
+        setSuccess("Login SuccessFully");
         //-----Login------or-----Input--Fild----Reset----
         e.target.reset();
         //-----User----Login fater Default home page-----
@@ -91,30 +99,39 @@ const Login = () => {
                 </p>
               </Link>
             </form>
+            {success && <p>User Creadted SuccessFully</p>}
           </div>
         </div>
       </div>
+      {/*-----Comment---------*/}
+      {/* <div>
+        {user ? (
+          <button
+            onClick={handleSingOut}
+            className="bg-slate-950 text-white font-bold
+    py-2 px-4 rounded-md"
+          >
+            Logout
+          </button>
+        ) : (
+          <button
+            onClick={handleSinginGoogle}
+            className="bg-slate-950 text-white font-bold
+    py-2 px-4 rounded-md"
+          >
+            Google Singin
+          </button>
+        )}
+
+        {user && (
+          <div>
+            <h2>{user.displayName}</h2>
+            <h2>{user.email}</h2>
+          </div>
+        )}
+      </div> */}
     </div>
   );
 };
 
 export default Login;
-
-// {
-//     user ?
-//     <button onClick={handleSingOut}
-//     className="bg-slate-950 text-white font-bold
-//     py-2 px-4 rounded-md">Logout</button>
-//     :
-//     <button onClick={handleSinginGoogle}
-//     className="bg-slate-950 text-white font-bold
-//     py-2 px-4 rounded-md">Google Singin</button>
-
-//     }
-
-//     {
-//       user &&  <div>
-//         <h2>{user.displayName}</h2>
-//         <h2>{user.email}</h2>
-//       </div>
-//     }
