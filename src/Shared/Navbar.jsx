@@ -1,13 +1,33 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Navbar = () => {
-    const navLink = <>
-    <li><NavLink className="text-xl" to="/">Home</NavLink></li>
-    <li><NavLink className="text-xl" to="/statistics">Statistics</NavLink></li>
-    <li><NavLink className="text-xl" to="/appliedJobs">Applied Jobs</NavLink></li>
-    <li><NavLink className="text-xl" to="/blog">Blog</NavLink></li>
-    <li><NavLink className="text-xl" to="/login">Login</NavLink></li>
+  const { user, logOut } = useContext(AuthContext);
+
+  const handelLogOut = () => {
+    console.log("logout user");
+    logOut()
+      .then((result) => {
+        console.log("Logged user SeccessFully", result);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+  const navLink = (
+    <>
+      <li><NavLink className="text-xl" to="/">Home</NavLink></li>
+      <li><NavLink className="text-xl" to="/statistics">Statistics</NavLink></li>
+      <li><NavLink className="text-xl" to="/appliedJobs">Applied Jobs</NavLink></li>
+      {
+        user && <>
+        <li><NavLink className="text-xl" to="/blog">Blog</NavLink></li>
+        </>
+      }
+      <li><NavLink className="text-xl" to="/login">Login</NavLink></li>  
     </>
+  );
   return (
     <div className="navbar bg-white sticky inset-0 z-10  w-full max-w-full rounded-none border  bg-opacity-30 py-2 px-4 text-black shadow-md backdrop-blur-2xl backdrop-saturate-200 lg:px-2 lg:py-2">
       <div className="navbar">
@@ -31,22 +51,38 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm gap-6 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm gap-4 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-            {navLink}
+              {navLink}
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">CareerHub</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-6">
-          {navLink}
-          </ul>
+          <ul className="menu menu-horizontal px-1 gap-4">{navLink}</ul>
         </div>
-        <div className="navbar-end">
-          <Link to={'/'}>
-          <button className="btn">Star Applying</button>
-          </Link>
+        <div>
+          {user ? 
+          <>
+           <span>{user.email}</span>
+            <div className="flex items-center gap-3">
+              <button onClick={handelLogOut} className="btn">
+                Sing Out
+              </button>
+            </div>
+          </>
+           : 
+           <Link to={"/login"}>
+           <button className="btn">Login</button>
+         </Link>
+          
+          }
+
+         <div className="navbar-end">
+                <Link to={"/"}>
+                  <button className="btn">Star Applying</button>
+                </Link>
+              </div>
         </div>
       </div>
     </div>

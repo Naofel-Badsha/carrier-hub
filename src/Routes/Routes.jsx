@@ -6,6 +6,8 @@ import Blog from "../Pages/Blog/Blog";
 import Home from "../Pages/Home/Home";
 import FeaturedJobsDetails from "../Components/FeaturedJobsDetails/FeaturedJobsDetails";
 import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 
 const myCreateRouter = createBrowserRouter([
@@ -33,11 +35,15 @@ const myCreateRouter = createBrowserRouter([
                 },
                 {
                     path: "/blog",
-                    element: <Blog></Blog>
+                    element: <PrivateRoute><Blog></Blog></PrivateRoute>
                 },
                 {
                     path: "/login",
                     element: <Login></Login>
+                },
+                {
+                    path: "/registation",
+                    element: <Register></Register>
                 },
             ]
         }
